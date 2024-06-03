@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.header {
+    background-color:rgb(1, 50, 55);
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+}
+
+.logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 64px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.hero {
+    background-image: url('Library/france.png');
+    background-size: cover;
+    background-position: center;
+    padding: 200px 200px;
+    text-align: center;
+    color: white;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #FF5733;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background-color: #C70039;
+}
+
+.destinations, .packages, .contact {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.destinations h2, .packages h2, .contact h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.destination-list, .package-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.destination, .package {
+    max-width: 300px;
+    text-align: center;
+    margin-bottom: 77px;
+}
+
+.destination img, .package img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.destination h3, .package h3 {
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.destination p, .package p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #FF5733;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #C70039;
+}
+
+.footer {
+    background-color: rgb(1, 50, 55);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.footer ul{
+    text-align: center;
+    display: flex;
+    gap: 64px;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
