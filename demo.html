@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
+    <title>Advanced Calculator</title>
     <link rel="stylesheet" href="demo.css">
 </head>
 <body>
@@ -24,11 +24,18 @@
             <button class="btn" onclick="appendToDisplay('2')">2</button>
             <button class="btn" onclick="appendToDisplay('3')">3</button>
             <button class="btn" onclick="appendToDisplay('0')">0</button>
+            <button class="btn" onclick="appendToDisplay('(')">(</button>
+            <button class="btn" onclick="appendToDisplay(')')">)</button>
             <button class="btn" onclick="appendToDisplay('.')">.</button>
             <button class="btn clear" onclick="clearDisplay()">C</button>
+            <button class="btn" onclick="backspace()">Backspace</button>
             <button class="btn equal" onclick="calculate()">=</button>
         </div>
     </div>
     <script src="script.js"></script>
 </body>
 </html>
+
+
+
+
